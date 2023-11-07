@@ -31,3 +31,7 @@ https://github.com/Green-Software-Foundation/carbon-aware-sdk/issues/222
 
 ### [2] 
 https://adrianco.medium.com/dont-follow-the-sun-scheduling-compute-workloads-to-chase-green-energy-can-be-counter-productive-b0cde6681763
+
+### Next section
+
+Continue the story -  [What software engineers need to know about how the grid works](how-the-grid-works.md)

@@ -13,3 +13,6 @@ Lorem ipsum
 - [Houston, we have a problem](we-have-a-problem.md)
 - [What software engineers need to know about how the grid works](how-the-grid-works.md)
 - [What’s the problem with carbon-aware software then?](problem-with-carbon-aware-software.md)
+- [When does carbon-aware software make sense?](when-does-carbon-aware-make-sense.md)
+- [Where do we take carbon-aware from here? Introducing grid-aware computing](grid-aware-computing.md)
+- [What can you do to help?](how-can-you-help.md)
