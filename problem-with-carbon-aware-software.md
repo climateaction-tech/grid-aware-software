@@ -63,3 +63,7 @@ Location shifting computing jobs makes no positive difference, just like time sh
 Remember, upward and downward spikes can break grids, especially less resilient ones. It’s happened before in <a href="https://www.sciencedirect.com/science/article/abs/pii/S2214629621002607">Venezuela</a>, <a href="https://www.arabnews.com/node/1794836/middle-east">Iran</a>, <a href="https://www.reuters.com/article/us-georgia-tech-currency-analysis-trfn/analysis-crypto-tears-bitcoin-miners-face-blame-for-abkhazia-energy-crisis-idUSKBN2AT1UC">Georgia</a>, and <a href="https://www.cacianalyst.org/publications/analytical-articles/item/13709-did-cryptocurrency-miners-crash-the-central-asian-power-grid?.html">Kazakhstan</a>, among other places, when bitcoin mining created equivalent surges in computing-specific electricity demand.
 
 Ultimately, the problems vary from grid-to-grid and depend on how resilient each grid is. To cause problems, you’d need a big spike in highly diversified grids, like Europe, or in grids that have invested heavily in storage, like California. But it could be quite modest to trigger serious impacts in less resilient grids like South Australia, with less grid interconnections and less fossil fuel energy for supply responses, or in India or South Africa, with less energy diversity.
+
+## Next section
+
+Continue the journey: [When does carbon-aware software make sense?](when-does-carbon-aware-make-sense.md)
