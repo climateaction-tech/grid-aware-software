@@ -119,3 +119,7 @@ We can see from this that unplanned spikes or drop-offs in demand aren’t good 
 Additionally, the very act of rapidly ramping up or down supply adds extra emissions. Many power sources are designed for steady-state conditions so sudden changes can lead to inefficient operation. Ramping up can also bring older and less efficient plants online. These are used as "<a href="https://en.wikipedia.org/wiki/Peaking_power_plant">peaking plants</a>" to meet sudden surges in demand. Start-up and shutdown processes can also be extra intensive. 
 
 All this means extra emissions on top of producing the additional electricity itself. It might be minor, and mitigated by the transition to battery power, but is nevertheless an additional negative effect of this scenario.
+
+### Next section
+
+Continue the story: [What’s the problem with carbon-aware software then?](problem-with-carbon-aware-software.md)
