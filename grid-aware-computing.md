@@ -24,7 +24,7 @@ We have done our best to outline a more sophisticated approach, building on what
 
 So let us by all means embrace, experiment and innovate with levels 1 and 2 of grid-aware computing: it is potentially useful and impactful. But let’s not translate the application of these patterns into the automatic assumption that we’re prioritising the right work.
 
-**This is absolutely worth encouraging, but not as a distraction from the central, constant question in level 3: is your compute’s net electricity demand reducing? **
+**This is absolutely worth encouraging, but not as a distraction from the central, constant question in level 3: is your compute’s net electricity demand reducing?**
 
 
 ## Next section
