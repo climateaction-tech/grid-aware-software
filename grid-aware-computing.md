@@ -27,6 +27,6 @@ So let us by all means embrace, experiment and innovate with levels 1 and 2 of g
 **This is absolutely worth encouraging, but not as a distraction from the central, constant question in level 3: is your compute’s net electricity demand reducing? **
 
 
-### Next section
+## Next section
 
 Continue the story: [What can you do to help?](how-can-you-help.md)

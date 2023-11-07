@@ -120,6 +120,6 @@ Additionally, the very act of rapidly ramping up or down supply adds extra emiss
 
 All this means extra emissions on top of producing the additional electricity itself. It might be minor, and mitigated by the transition to battery power, but is nevertheless an additional negative effect of this scenario.
 
-### Next section
+## Next section
 
 Continue the story: [What’s the problem with carbon-aware software then?](problem-with-carbon-aware-software.md)

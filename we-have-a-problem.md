@@ -26,12 +26,13 @@ In this light, we believe our grand collective oversight is to omit any mention 
 
 We explore these concerns and caveats. We start by acknowledging the technical detail of how electricity grids work in practice. We move to considering how current carbon-aware software approaches do not appear to take these realities into consideration. The post concludes by proposing an iteration on the current carbon-aware guidelines for a more responsible and effective implementation, which we call “grid-aware computing”.
 
-### [1]
-https://github.com/Green-Software-Foundation/carbon-aware-sdk/issues/222
-
-### [2] 
-https://adrianco.medium.com/dont-follow-the-sun-scheduling-compute-workloads-to-chase-green-energy-can-be-counter-productive-b0cde6681763
-
-### Next section
+## Next section
 
 Continue the story -  [What software engineers need to know about how the grid works](how-the-grid-works.md)
+
+#### [1]
+https://github.com/Green-Software-Foundation/carbon-aware-sdk/issues/222
+
+#### [2] 
+https://adrianco.medium.com/dont-follow-the-sun-scheduling-compute-workloads-to-chase-green-energy-can-be-counter-productive-b0cde6681763
+

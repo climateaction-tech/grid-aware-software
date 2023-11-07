@@ -31,7 +31,7 @@ In short you are free to use this work, but you must give appropriate credit and
 
 ## Sections
 
-This body of work have been broken down into 6 distinct sections:
+This body of work is divided into 6 distinct sections:
 
 - [Houston, we have a problem](we-have-a-problem.md)
 - [What software engineers need to know about how the grid works](how-the-grid-works.md)

@@ -16,5 +16,5 @@ It seems the uncomfortable outcome is all this effort is hampering tech’s sust
 
 THERE STILL A LOT TO ADD HERE FROM THE ORIGINAL DOC - AM WORKING ON IT!!
 
-### Next section
+## Next section
 Continue the journey: [Where do we take carbon-aware from here? Introducing grid-aware computing](grid-aware-computing.md)
