@@ -15,6 +15,7 @@ If the assumptions made through this post are correct – please do reach out if
 ## Grid-aware computing: avoiding the greenwashing trap
 
 This blog has, above all, identified that the version of “carbon aware computing” as currently presented, promoted, and increasingly marketed by more and more Big Tech companies, is not actually a solution to the environmental impact of computing. But in fact is mostly ineffective and full of unacknowledged risks. 
+
 Embracing this paradigm without question risks a very subtle and dangerous new wave of greenwashing. Whenever you read: we have made X carbon aware, or timed Y to when the grid is greenest - assume that will make little to no positive difference. And if it really scales it’s likely to damage both the climate and grid stability/access.
 
 What we think the above discussion indicates above all is there’s no magic bullet. The unsustainability of computing is not addressed by a single headline intervention or set of coding standards.

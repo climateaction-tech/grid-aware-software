@@ -10,7 +10,7 @@ There is no real acknowledgement of the nuances, nor of how balancing supply and
 
 Unless the widely adopted approaches become more sophisticated and work in sync with how the grid is actually managed in reality, we don’t stand to gain much. 
 
-It seems the uncomfortable outcome is all this effort is hampering tech’s sustainability efforts as we try to help them. The damage of runaway climate change to populations around the world demands that we do better, and we believe the tech sector is well resourced enough to tackle this in a meaningful way.
+It seems the uncomfortable outcome is all this effort is hampering tech’s sustainability efforts as we try to help them. The damage of runaway climate change to populations around the world demands that we do better, and we believe the tech sector is <a href="https://rtl.chrisadams.me.uk/2023/07/comparing-what-is-spent-on-share-buybacks-vs-the-cost-of-decarbonising-the-grid/">well resourced enough to tackle this in a meaningful way</a>.
 
 
 
