@@ -1,4 +1,4 @@
-# What software engineers need to know about how the grid works
+# 2. What software engineers need to know about how the grid works
 
 What’s so potentially wrong about shifting compute loads in response to carbon   intensity? To answer this question, we need to start with a bird’s-eye view of how electricity grids work in practice. Once we have that understanding, we can start to see where the problems lie.
 

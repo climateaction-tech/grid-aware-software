@@ -1,4 +1,4 @@
-# Where do we take carbon-aware from here? Introducing grid-aware computing.
+# 6. Where do we take carbon-aware from here? Introducing grid-aware computing.
 
 If the assumptions made through this post are correct – please do reach out if you have something to add, contributions would be most welcome – we are entirely justified in promoting the next version of carbon-aware computing. 
 

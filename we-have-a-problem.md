@@ -1,4 +1,4 @@
-# Houston, we have a problem
+# 1. Houston, we have a problem
 
 Running compute jobs when and where the electricity grid is being powered by renewable energy must mean that the emissions associated with running that code are reduced. Running code using renewable “clean” electricity by definition means that it’s not consuming "dirty" fossil fuel energy. 
 

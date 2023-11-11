@@ -1,4 +1,4 @@
-# When does carbon-aware software make sense?
+# 4. When does carbon-aware software make sense?
 
 Let’s be absolutely clear on the answer to the question “is carbon-aware computing just bad?” No. We don’t intend to bash the core concepts of carbon-aware software. 
 

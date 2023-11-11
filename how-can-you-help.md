@@ -1,4 +1,4 @@
-# What can you do to help?
+# 7. What can you do to help?
 
 Big Tech is listening to us, and that this is an inflection point right now.
 

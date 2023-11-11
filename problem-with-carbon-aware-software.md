@@ -1,4 +1,4 @@
-# What’s the problem with carbon-aware software then?
+# 3. What’s the problem with carbon-aware software then?
 
 Let’s turn to exploring how the grid works in conjunction with the current carbon-aware software patterns.
 

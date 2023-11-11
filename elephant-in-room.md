@@ -1,4 +1,4 @@
-# Addressing the elephant in the room
+# 5. Addressing the elephant in the room
 
 And lastly, our two refined and approved carbon-aware approaches don’t stand to gain us much if we are not also tackling the big question: **how much of the world’s resources is it acceptable for tech to use?**
 
