@@ -31,14 +31,15 @@ In short you are free to use this work, but you must give appropriate credit and
 
 ## Sections
 
-This body of work is divided into 6 distinct sections:
+This body of work is divided into seven distinct sections:
 
-- [Houston, we have a problem](we-have-a-problem.md)
-- [What software engineers need to know about how the grid works](how-the-grid-works.md)
-- [What’s the problem with carbon-aware software then?](problem-with-carbon-aware-software.md)
-- [When does carbon-aware software make sense?](when-does-carbon-aware-make-sense.md)
-- [Where do we take carbon-aware from here? Introducing grid-aware computing](grid-aware-computing.md)
-- [What can you do to help?](how-can-you-help.md)
+1. [Houston, we have a problem](we-have-a-problem.md)
+1. [What software engineers need to know about how the grid works](how-the-grid-works.md)
+1. [What’s the problem with carbon-aware software then?](problem-with-carbon-aware-software.md)
+1. [When does carbon-aware software make sense?](when-does-carbon-aware-make-sense.md)
+1. [Addressing the elephant in the room](elephant-in-room.md)
+1. [Where do we take carbon-aware from here? Introducing grid-aware computing](grid-aware-computing.md)
+1. [What can you do to help?](how-can-you-help.md)
 
 ## Context/about 
 
