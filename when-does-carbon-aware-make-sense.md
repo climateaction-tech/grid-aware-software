@@ -54,11 +54,12 @@ The above has merit when happening at a relatively small scale. But if everyone 
 
 ### A long-term vision 
 
-So, let’s take the approach even further and imagine a long-term goal. Let’s make it standard that our compute jobs, and more specifically the data centres running these jobs, interface with grids and become part of the solution rather than the problem. These ideas fall into the realm of **demand management**, which we touch on in [what software engineers need to know about how the grid works](how-the-grid-works.md).
+So, let’s take the approach even further and imagine a long-term goal. Let’s make it standard that our compute jobs, and more specifically the data centres running these jobs, interface with grids and become part of the solution rather than the problem. These ideas fall into the realm of **demand management**, which we introduce in [what software engineers need to know about how the grid works](how-the-grid-works.md) and touch on again in [addressing the elephant in the room](elephant-in-room.md).
 
 By interacting with grid management systems, ideally in an automated, collaborative, and democratic way, we could identify times that assist with managing the grid, rather than placing additional burdens on it. Democratic here is key as well.
 
-This can’t just be the realm of the Big Tech players. We all need a chance to participate through open source standards and protocols. By doing so, we can actually prevent fossil fuels from being used, further reducing net emissions – a win/win across the board. We explore these ideas further in [addressing the elephant in the room](elephant-in-room.md).
+This can’t just be the realm of the Big Tech players. We all need a chance to participate through open source standards and protocols. By doing so, we can actually prevent fossil fuels from being used, further reducing net emissions – a win/win across the board.
+
 
 ### Way 2: Run compute on additive renewable energy
 
