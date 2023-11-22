@@ -22,9 +22,9 @@ What we think the above discussion indicates above all is there’s no magic bul
 
 We have done our best to outline a more sophisticated approach, building on what’s already come before us and what lies ahead. Our hope is we can capture the current desire to make software more carbon-aware but make it more effective, drastically reducing its risks, and expand it to significantly increase the likelihood of meaningful climate benefits from tech interventions. This is what we’ve named “grid-aware computing”.
 
-So let us by all means embrace, experiment and innovate with levels 1 and 2 of grid-aware computing: it is potentially useful and impactful. But let’s not translate the application of these patterns into the automatic assumption that we’re prioritising the right work.
+So let us by all means embrace, experiment and innovate with ways 1 and 2 of grid-aware computing. It is potentially useful and impactful. But let’s not translate the application of these patterns into the automatic assumption that as an industry we’re prioritising the right work.
 
-**This is absolutely worth encouraging, but not as a distraction from the central, constant question in level 3: is your compute’s net electricity demand reducing?**
+**We cannot allow ourselves to become distracted from the central, constant question in way 3: is your compute’s net electricity demand reducing?**
 
 
 ## Next section
