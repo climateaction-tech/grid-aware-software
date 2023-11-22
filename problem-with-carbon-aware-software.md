@@ -2,11 +2,13 @@
 
 Let’s turn to exploring how the grid works in conjunction with the current carbon-aware software patterns.
 
+## How the grid and carbon-aware software interfaces
+
 Up until now, carbon-aware software techniques have been focused on the opportunities presented by changing fuel mixes on the supply side. As we’ve seen above, effective grid management is about maintaining an equilibrium. Messing with that balance has consequences, and for the most part the impacts result in increased carbon emissions.
 
 ## ⏱ Applying the realities of grid management to “carbon-aware” time-shifting
 
-> Quick reference – Time-shifting compute 
+> ### Quick reference – Time-shifting compute
 >
 > Looking for the time of day when electricity will be greenest e.g. when there are fewest fossil-fuels in the energy mix, and setting compute jobs to run at that time. This means that the time of day the jobs run is dynamic and frequently changes.
 
@@ -63,6 +65,7 @@ Location shifting computing jobs makes no positive difference, just like time sh
 Remember, upward and downward spikes can break grids, especially less resilient ones. It’s happened before in <a href="https://www.sciencedirect.com/science/article/abs/pii/S2214629621002607">Venezuela</a>, <a href="https://www.arabnews.com/node/1794836/middle-east">Iran</a>, <a href="https://www.reuters.com/article/us-georgia-tech-currency-analysis-trfn/analysis-crypto-tears-bitcoin-miners-face-blame-for-abkhazia-energy-crisis-idUSKBN2AT1UC">Georgia</a>, and <a href="https://www.cacianalyst.org/publications/analytical-articles/item/13709-did-cryptocurrency-miners-crash-the-central-asian-power-grid?.html">Kazakhstan</a>, among other places, when bitcoin mining created equivalent surges in computing-specific electricity demand.
 
 Ultimately, the problems vary from grid-to-grid and depend on how resilient each grid is. To cause problems, you’d need a big spike in highly diversified grids, like Europe, or in grids that have invested heavily in storage, like California. But it could be quite modest to trigger serious impacts in less resilient grids like South Australia, with less grid interconnections and less fossil fuel energy for supply responses, or in India or South Africa, with less energy diversity.
+
 
 ## Next section
 
