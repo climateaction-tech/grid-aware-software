@@ -6,21 +6,31 @@ The core concept that shifting compute jobs to respond to the electricity availa
 
 **The criticism is that current approaches never apply any warning labels.**
 
-There is no real acknowledgement of the nuances of how balancing electricity supply and demand works in practice. We fail to mention that the current patterns are only helpful in certain circumstances, futile in most, and seriously harmful in others. It seems the uncomfortable outcome is all this effort hampes tech’s sustainability efforts as we try to help them. 
+We fail to mention that time and location shifting patterns are only helpful in certain circumstances, futile in most, and potentially harmful in others. There is a general assumption that time and location shifting are a greener way to run compute, with no verification and no risk mitigation. 
 
-Most crucially we see don’t carbon-aware software meaningfully addressing the elephant in the room. **It is simply not possible to optimise our way to the reductions needed in the tech sector, whilst tech’s overall energy and resource demands grow rampantly.**
-The damage of runaway climate change to populations around the world demands that we do better, and we believe the tech sector is <a href="https://rtl.chrisadams.me.uk/2023/07/comparing-what-is-spent-on-share-buybacks-vs-the-cost-of-decarbonising-the-grid/">well resourced enough to tackle this in a meaningful way</a>.
+We are concerned that the current approach is actually hampering tech’s sustainability efforts even when meaning to assist them. First, by messaging that any company that adopts time and location shifting is now a little greener, a recipe for green washing. Second, by promoting patterns which, if adopted at scale without any risk analysis or mitigation are likely to be harmful. 
+
+Most crucially we don’t see carbon-aware software meaningfully addressing the elephant in the room. **The environtal challenge of computing is not primarily one of energy optimisation, but of energy demand.**
+
+For the best part of a century the amount of electricity consumed by the same computing job has become exponentially smaller. This should in theory mean the technology sector is greener than it has ever been. But these extraordinary <a href="https://doi.org/10.1016/j.patter.2021.100340">gains in efficiency have been dwarfed by the increases in computing electricity demand</a>. 
 
 
-## What are the warning labels that need to be applied?
+![](images/ICT-emissions.png)
 
-There are two ways in which we think the logic of the carbon-aware approach holds true.
+Carbon aware computing is a novel form of optimisation. It seeks to do essentially the same compute using less fossil-based electricity, by targetting more renewable energy. But any gains from such optimisation will be meangingless if our electricty demand grows faster than our optimisation gains.  
 
-**Way 1:** Time-shifting or location-shifting compute to when demand is naturally low and then using electricity that would otherwise be curtailed.
+We think there is a way to reframe carbon-aware computing to address both, optimisation and demand, and not merely make cosmetic improvements to Business As Usual. The damage of runaway climate change to populations around the world demands that we do better, and we believe the tech sector is <a href="https://rtl.chrisadams.me.uk/2023/07/comparing-what-is-spent-on-share-buybacks-vs-the-cost-of-decarbonising-the-grid/">well resourced enough to tackle this in a meaningful way</a>.
 
-**Way 2:** When jobs run on electricity that is additive to the grid.
 
-Don't just take our word for these two. The shortest, clearest authoritative summary on this is from a <a href="https://www.whitehouse.gov/wp-content/uploads/2022/09/09-2022-Crypto-Assets-and-Climate-Report.pdf">White House investigation into crypto mining</a> (see page 24). The useful part says:
+## How can we make carbon-aware computing work?
+
+There are two ways in which the logic of the carbon-aware approach can indeed reduce emissions.
+
+**Way 1:** Time-shifting or location-shifting compute to when demand is naturally low and then using electricity that would otherwise be curtailed. This is very close to the current approach, but it prioritises electricity demand over electricity mix.
+
+**Way 2:** Having computing jobs run on renewable electricity that is additive to the grid. 
+
+The shortest authoritative summary of this reasoning is from a <a href="https://www.whitehouse.gov/wp-content/uploads/2022/09/09-2022-Crypto-Assets-and-Climate-Report.pdf">White House investigation into crypto mining</a> (see page 24). The relevant part says:
 
 > "There are two primary ways.... using grid electricity would result in zero direct GHG emissions:
 >
@@ -30,37 +40,52 @@ Don't just take our word for these two. The shortest, clearest authoritative sum
 >
 > When... electricity [comes] from existing renewable sources, it displaces the GHG emissions in the near-term, shifting users of renewable sources to fossil fuel sources. This is because coal and natural gas often supply electricity generation for each additional unit of electricity demanded in the United States. As the amount of renewable sources is held constant, but electricity demand increases, additional fossil power will likely be dispatched. This displacement results in no net change or in increases in total global emissions through a process called leakage.”
 
-We get into these two ways in the sections below. In the next section, we discuss [addressing the elephant in the room](elephant-in-room.md) - the net increases in resources demanded by the tech sector even with all this optimisation effort. This leads us to present a third way.
+Based on the above, we have 3 proposals for a new approach to carbon-aware computing, to maximise its positive impacts and mitigate its risks, two of which we outline in this section.
 
-### Way 1: Run compute when demand is low, using curtailed electricity in stable grids
+### Proposal 1: Run compute when demand is low, using curtailed electricity in stable grids
 
 > #### TL;DR:
 >
-> We propose the refinement to current carbon-aware time-shifting or location-shifting approaches is to **prioritise demand intensity first and carbon intensity second**. We need to do this in collaboration with one another and local grid systems.
+> We propose as a refinement to current carbon-aware time-shifting or location-shifting approaches to **prioritise demand intensity first and carbon intensity second**. 
 
-Scheduling compute to run at already predicted low demand times contrasts to the current approach of dynamically time-shifting to periods of high renewables/low carbon intensity, which fluctuates day-to-day and is hard to forecast. If we time-shift compute within our own grids based on grid demand in a highly predictable, stable fashion we don’t create unpredictable daily spikes.
+Low demand times are most likely to coincide with times of excess renewable energy, which would otherwise be curtailed, which is to say wasted, to maintain grid stability. This is precisely the scenario where time-shifting and location shifting actually translates into emissions reductions from compute. Our compute runs on renewable electricity no one else will use, and thus will not generate direct emissions.
 
-This sounds simple for routine jobs. As a concept perhaps it is. But that doesn’t mean it isn’t a valuable contribution.
+As we explored in [what software engineers need to know about how the grid works](how-the-grid-works.md), targeting low demand times has intrinsic environmental benefits independently of how much of the grid is running on renewables. It can play a part in helping the grid avoid ramp-ups/downs and contribute to grid stability, both of which have environmental, social and economic benefits.
 
-And for compute that’s more spontaneous? There’s some good demand-focused tweaks available here too.
+If we schedule our compute based on grid demand in a highly predictable, stable fashion we don’t create unpredictable daily spikes and we maximise the chances of running on otherwise curtailed renewable energy and actually reducing our emissions.
 
-Our beneficial impact can be even greater if running compute can play a part in helping the grid to avoid ramp-ups/downs. Going up or down can inflate carbon emissions, as we explored in [what software engineers need to know about how the grid works](how-the-grid-works.md). Ramping down also typically involves curtailing electricity, which is essentially wasting electricity. Getting compute to make use of that, regardless of the carbon intensity at the time, is an approach worth working on.
 
-We think an alternative version of location-shifting, that factors in demand, could also be helpful. What if we first looked for grids that currently have low demand AND then sought those with a period of naturally high renewable electricity production? This contrasts to the current carbon-aware location-shifting approach that just looks at electricity carbon intensity.
+**_How is this different from the current prevailing approach of targetting low carbon-intensity times in the grid?_**
 
-In our proposed way we might look for places with low demand, let’s say between 2am and 4am, with high winds in a grid that does a solid job of harnessing wind energy. If that grid were unable to make use of all that wind and had to curtail it, our compute could use it for something productive.
+As an example, an area with strong solar infrastructure might have a greener energy mix on sunnier, hotter periods of the day. That is also when people might be at work, so you would have both, a greener mix, and medium demand. At this tinme, the solar energy will be fully utilised, and there will be no exceess/curtailment.  A carbon intensity API might suggest 11 am is a good time to run your compute, but it will not reduce emissions at all. It might make no difference, or, if the electricity demand from compute jobs is large enough at 11 am in response to that API, the likelihood of requiring additional fossil fuels is much greater, meaning you are adding emissions.
 
-The above has merit when happening at a relatively small scale. But if everyone does this at the same time? Then we *still* have the problem of creating demand spikes, one our core worries about the current approaches.
+Furthermore, because renewable energy supply, unlike electricity demand, is so unpredictable, timing a lot of compute to trigger when grid carbon intensity is low will add unpredictability to the grid, risking instability, hugely increasing the chances of perverse effects, environmental, social and economic. 
 
-### A long-term vision 
+Which is to say there is no obvious scenario where targeting low demand times is not positive for the environment, but there are many scenarios where targetting grid carbon intensity will be ineffective or harmful.
 
-So, let’s take the approach even further and imagine a long-term goal. Let’s make it standard that our compute jobs, and more specifically the data centres running these jobs, interface with grids and become part of the solution rather than the problem. These ideas fall into the realm of **demand management**, which we touch on in [what software engineers need to know about how the grid works](how-the-grid-works.md).
+**_A demand-first approach is not incompatible with current carbon aware approaches and tooling._**
 
-By interacting with grid management systems, ideally in an automated, collaborative, and democratic way, we could identify times that assist with managing the grid, rather than placing additional burdens on it. Democratic here is key as well.
+Once we have prioritied low demand times, we can still use existing APIs or data sources to target low carbon-intensity triggers. 
 
-This can’t just be the realm of the Big Tech players. We all need a chance to participate through open source standards and protocols. By doing so, we can actually prevent fossil fuels from being used, further reducing net emissions – a win/win across the board. We explore these ideas further in [addressing the elephant in the room](elephant-in-room.md).
+In this scenario our compute jobs would never run at 11 am, even if grid carbon intensity is low, because we would know the chances of curtailment are remote. But they might run at 4 am on a windy storm, and not at 5 am when the winds have calmed, maximising even more the likelihood of running on otherwise curtailed energy and reducing our emissions.
 
-### Way 2: Run compute on additive renewable energy
+These approaches are not incompatible. What if we first looked for grids that currently have low demand AND then sought those with a period of naturally high renewable electricity production? 
+
+**_Warning Labels Remain_**
+
+The above has merit when happening at a relatively small scale. But if everyone does this at the same time? Then we *still* have the problem of creating demand spikes, one our core worries about the current approaches. Whether just time shifting or also location-shfting, at scale, this low-demand-first approach is dramatically safer than the current one, but it still carries risks which must be assessed and mitigated. 
+
+**_A call for innovation_**
+
+Thinking about the challenges of large scale demand and carbon aware computing carries risks, but also opportunities. The current stage is experimental, fragmented and dispersed. But there is room to take the approach even further and imagine a long-term goal. Let’s make it standard that our compute jobs, and their underlying infrastructure, interface with grids in a systemic way and become part of the solution rather than the problem. These ideas fall into the realm of **demand management**, which we touch on in [what software engineers need to know about how the grid works](how-the-grid-works.md). 
+
+There are many experiments ongoing in this area, some at significant scale, but we need a more holistic vision at the policy, business, technical, operational and infrastructural level of what is possible, what is necessary, and what it should look like.  By interacting with grid management systems, ideally in an automated, collaborative, and democratic way, we could harness the synergies between the demand management challenges of scaling up renewable electricity, and reducing the emissions from compute. 
+
+Democratic here is key, as we all have a stake, are and and will be impacted by these interactions. This can’t just be the realm of the Big Tech players. We all need a chance to participate through open source standards, protocols and public engagement and participation. 
+
+We explore these ideas further in [addressing the elephant in the room](elephant-in-room.md).
+
+### Proposal 2: Run compute on additive renewable energy
 
 > #### TL;DR:
 >
@@ -107,10 +132,11 @@ Instead of purchasing some remote renewable infrastructure and “accounting” 
 
 If your compute is being directly powered by your own solar panels or wind turbines etc., there is no sleight of hand or complex statistical projections. Your compute is effectively off grid to the extent that it is directly powered by your own renewable sources.
 
-While preferable in terms of emissions, this approach is challenging to scale and risks perverse effects as get into below. 
+While preferable in terms of emissions, this approach is challenging to scale and risks perverse effects as we get into below. As with all choices proposed, it is important we do not simply advocate solutions, but address the risks and trade-offs. Warning labels are not stop signs. They are guides to responsible use.
 
-### Innovation with distributed alternatives
-As a complement to this section, it’s worth mentioning there’s room to innovate with distributed alternatives. Distributed compute and renewable electricity generation. We've pulled out some of the ideas/research around this into [Appendix 1](/appendices/appendix-1.md).
+**_Innovation with distributed alternatives_**
+
+As a complement to this section, it’s worth mentioning there’s room to innovate direct renewable energy for compute at scale with distributed alternatives. Distributed compute and renewable electricity generation are growing in parallel and the room for synergy and innovation, environmental and commercial, is huge. We've pulled out some of the ideas/research around this into [Appendix 1](/appendices/appendix-1.md).
 
 
 ## Next section

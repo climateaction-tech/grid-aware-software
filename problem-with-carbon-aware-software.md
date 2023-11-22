@@ -54,17 +54,20 @@ The problem is that there is still only 80% of renewable energy available to Lis
 
 A **displacement effect** is seen again. These compute jobs have displaced the emissions from every other country to Portugal, for the same net emissions globally. Or has it?
 
-In fact, it’s probably worse than that. Driving up demand in Lisbon and stimulating above-average fossil fuel consumption there has resulted in a net increase of CO2. Plus the electricity demand from each of the local regions didn’t actually reduce as a result of the jobs moving. The emissions in those local grids are still exactly the same. The global net consumption of electricity rose, as did CO2 emissions.
+In fact, it’s probably worse than that. Driving up demand in Lisbon and stimulating above-average fossil fuel consumption there has resulted in a net increase of CO2. Plus the electricity demand from each of the local regions may not have actually reduced as a result of the jobs moving. The emissions in those local grids are still approximately the same. The global net consumption of electricity rose, as did CO2 emissions.
 
 The implications become worse as things scale. Now imagine not just Stoogle Tech, but also Bircosoft Tech, Wapple Tech, and Macebook Tech all get on the location-shifting bandwagon. Let’s say all of their available servers are powered by national grids. Suddenly Lisbon’s electricity demand hits 120%, and local grid demand dips. 
 
-Location shifting computing jobs makes no positive difference, just like time shifting. But it's adding emissions and potentially risking grid instability for others. In this regard, our well intentioned efforts are worse than those who just run their jobs when they feel like it, or better yet run them in a predictable fashion.
+Location shifting computing jobs makes no positive difference in this example, just like time shifting. But it's adding emissions and potentially risking grid instability for others. In this regard, the corporations' well intentioned efforts are worse than those who just run their jobs when they feel like it, or better yet run them in a predictable fashion.
 
 ### How much location shifting would you need to trigger problems in practice?
 
 Remember, upward and downward spikes can break grids, especially less resilient ones. It’s happened before in <a href="https://www.sciencedirect.com/science/article/abs/pii/S2214629621002607">Venezuela</a>, <a href="https://www.arabnews.com/node/1794836/middle-east">Iran</a>, <a href="https://www.reuters.com/article/us-georgia-tech-currency-analysis-trfn/analysis-crypto-tears-bitcoin-miners-face-blame-for-abkhazia-energy-crisis-idUSKBN2AT1UC">Georgia</a>, and <a href="https://www.cacianalyst.org/publications/analytical-articles/item/13709-did-cryptocurrency-miners-crash-the-central-asian-power-grid?.html">Kazakhstan</a>, among other places, when bitcoin mining created equivalent surges in computing-specific electricity demand.
 
 Ultimately, the problems vary from grid-to-grid and depend on how resilient each grid is. To cause problems, you’d need a big spike in highly diversified grids, like Europe, or in grids that have invested heavily in storage, like California. But it could be quite modest to trigger serious impacts in less resilient grids like South Australia, with less grid interconnections and less fossil fuel energy for supply responses, or in India or South Africa, with less energy diversity.
+
+The key point is that simply reading _"x computing job is timed to run when and where the grid is greenest_" **should not be assumed to mean it has in any way reduced emissions, and it could have perverse effects.** 
+
 
 
 ## Next section

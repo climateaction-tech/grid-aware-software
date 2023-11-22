@@ -1,4 +1,4 @@
-# The problems with carbon-aware software that everyone’s ignoring.
+# Carbon Aware Computing: The Next Green Breakthrough or The New Greenwashing?
 
 **Authors:** <a href="https://www.linkedin.com/in/hanopcan/">Hannah Smith</a> and <a href="https://www.linkedin.com/in/ismaelvelasco/">Ismael Velasco</a>.
 
@@ -8,16 +8,16 @@
 
 ## TL;DR / Executive Summary
 
-1. The core concept of shifting compute jobs to respond to the grid is a smart one. But there are only small-to-zero carbon reduction benefits from implementing most current carbon-aware time-shifting and location-shifting computing approaches. 
+1. **The core concept of shifting compute jobs to respond to the grid is a smart one.** But there are only small-to-zero carbon reduction benefits from implementing most current carbon-aware time-shifting and location-shifting computing approaches, and some unacknowledged dangers. 
 
-1. If such approaches are adopted at scale without implementation constraints, they are likely to increase emissions and destabilise electricity grid systems. This does not improve the tech industry’s contributions to global sustainability, but rather worsens them. It also risks becoming, or is already, a greenwashing effort.
+2. **If such approaches are adopted at scale without implementation constraints, they are likely to increase emissions and destabilise electricity grid systems.** This does not improve the tech industry’s contributions to global sustainability, but rather worsens them. It also risks becoming, or is already, a greenwashing effort.
 
-1. The key failure is never applying appropriate warning labels to draw attention to key caveats. Such as
-- Carbon-aware computing that can yield _actual_ carbon reductions runs when demand is low using curtailed electricity in stable grids, or on genuinely additive renewable electricity.
+3. **The key failure in current carbon aware computing is the lack of any "warning labels".** It's helpful to explore and even promote carbon-aware computing, but irreponsible to do so without forethought around potential risks and explicit caveats such as
+    -  **Running compute jobs at a time and place when the electricity grid energy mix happens to be greener is not enough to achieve _actual_ carbon reductions from that computing operation.**  It aso needs to run when demand is low; target stable electricity grids; and verifiably use curtailed electricity or run on genuinely additive renewable electricity.
 
-- “_Is your compute’s net electricity demand reducing?_” is the central question if we really want to make computing more sustainable. Acknowledging Jevons paradox and accepting that optimisation alone isn't enough, means we must find ways to limit the growth of computing's resource use.
+    - **Achieving carbon reductions of particular computing jobs is pointless if it does not reduce the net electricity demand of our computing as a whole.**  Because renewable energy can only power less than 13% of global energy demand, if our compute's energy demand grows in a year, even 100% effective carbon aware computing on the electricity grid will mean a net increase in our emissions. 
 
-4. We need to usher in a more mature, holistic and nuanced approach to reducing the CO2 emissions from running software. For now we’re calling this _‘grid-aware computing’_.
+4. **True carbon-aware computing should ask not just how green is our use of the electricity grid for any given job at any given time, but on how responsible is our use of the electricity grid as a whole.** For now we’re calling this more mature, holistic and nuanced approach **_‘grid-aware computing’_.**
 
 ## License
 

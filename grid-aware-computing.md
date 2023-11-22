@@ -8,23 +8,31 @@ If the assumptions made through this post are correct – please do reach out if
 > 
 > The next proposed iteration of carbon-aware computing that helps developers address the impact of computing shift in ways that make actual net reductions to the emissions associated with local and global electricity grids. 
 > The key approaches are:
-> 1. Run compute when demand is low, using curtailed green electricity in stable grids.
+> 1. Run compute when demand is low, targeting curtailed green electricity in stable grids.
 > 2. Run compute on additive electricity.
 > 3. Demand-shape computing electricity use so it stays within agreed resource use boundaries.
 
 ## Grid-aware computing: avoiding the greenwashing trap
 
-This blog has, above all, identified that the version of “carbon aware computing” as currently presented, promoted, and increasingly marketed by more and more Big Tech companies, is not actually a solution to the environmental impact of computing. But in fact is mostly ineffective and full of unacknowledged risks. 
+This blog has, above all, identified that the version of “carbon aware computing” as currently presented, promoted, and increasingly marketed by more and more Big Tech companies, is not actually a trustable contribution to the environmental impact of computing. On the contrary, we argue that it is mostly ineffective and full of unacknowledged risks. This is not a judgement of intent. Whether implemented in good faith or not, the effect is to signal a green step forward, which we think in most cases is not a step at all, and in some cases it's not green.
 
-Embracing this paradigm without question risks a very subtle and dangerous new wave of greenwashing. Whenever you read: we have made X carbon aware, or timed Y to when the grid is greenest - assume that will make little to no positive difference. And if it really scales it’s likely to damage both the climate and grid stability/access.
+If we think of our three proposals for grid-aware software (GAC) in relation to Business as Usual, including current carbon aware computing (CAC), this is what we envision:
 
-What we think the above discussion indicates above all is there’s no magic bullet. The unsustainability of computing is not addressed by a single headline intervention or set of coding standards.
+![](images/illustration-carbon-aware-computing-v3.svg)
 
-We have done our best to outline a more sophisticated approach, building on what’s already come before us and what lies ahead. Our hope is we can capture the current desire to make software more carbon-aware but make it more effective, drastically reducing its risks, and expand it to significantly increase the likelihood of meaningful climate benefits from tech interventions. This is what we’ve named “grid-aware computing”.
+Endorsing the current carbon aware paradigm without question, verification or risk analysis opens the door to a technically subtle and dangerous new wave of greenwashing. We are still on time to inject caution and nuance into carbon-aware discourse, and more crucially, into its implementations.
 
-So let us by all means embrace, experiment and innovate with levels 1 and 2 of grid-aware computing: it is potentially useful and impactful. But let’s not translate the application of these patterns into the automatic assumption that we’re prioritising the right work.
+This is not to discredit current efforts, but to de-risk them and improve them, before the current concept, without warning labels or risk mitigations, gains enough traction to add brand value and scale up, without guardrails. By then it will be too late and we will learn the consequences through hindsight.
 
-**This is absolutely worth encouraging, but not as a distraction from the central, constant question in level 3: is your compute’s net electricity demand reducing?**
+As of now, whenever you read: we have made this app carbon aware, or timed this compute job to when the grid is greenest - unless there is some actual evidence of impact, assume that the announcement will make little to no positive difference to emissions. And if the implementations really scales, consider it is likely to damage both the climate and grid stability/access, with all the economic and social consequences.
+
+
+We have done our best to outline a constructive, more careful approach, building on what’s already there with an eye to what lies ahead. Our hope is we can capture the current desire to make software more carbon-aware but make it more effective, drastically reducing its risks, and significantly increasing the likelihood of climate benefits. 
+
+We’ve named this approach “grid-aware computing” to emphasise that what matters is our overall systemic impact on the grid, rather than the carbon intensity metrics at any given time, or the emissions of any given compute job.So let us by all means embrace, experiment and innovate with our proposals 1 and 2 for improved carbon aware computing: it is potentially useful and impactful. But in doing so let’s not make the automatic assumption that we’re prioritising the right work.
+
+
+**The grid-aware approach means that we should never let carbon aware implementations of specific compute tasks distract us from the central, constant question at the heart of our third proposal: _is our compute’s net electricity demand reducing?_**
 
 
 ## Next section

@@ -1,18 +1,23 @@
 # 5. Addressing the elephant in the room
 
-And lastly, our two refined and approved carbon-aware approaches don’t stand to gain us much if we are not also tackling the big question: **how much of the world’s resources is it acceptable for tech to use?**
+As we discussed in [When does carbon-aware software make sense?](when-does-carbon-aware-make-sense.md), the key challenge for greening computing is not optimisation but electricity demand. We think that carbon aware computing, if it is to fulfill its potential and promise, needs to directly engage with this reality.
 
-There is a danger that the key takeaway from ways 1 and 2, is that if we build and use electricity and data centres more innovatively, we can safely continue with business as usual. We can build massive AI products, keep growing our data centres and enjoy the benefits of limitless personal compute potential.
+Our two refined and proposed carbon-aware approaches don’t stand to gain us much if we are not also tackling the big question: **how much of the world’s resources is it acceptable for tech to use?**
 
-It cannot be understated that one of the biggest shifts required to reduce carbon emissions in line with the <a href="https://en.wikipedia.org/wiki/Paris_Agreement">Paris Agreement</a> is to accept that we cannot continue to grow everything without some limitations. At least not in the short-term whilst we wildly exceed the world’s carbon budgets and need to drastically reduce our emissions. 
+There is a danger that the key takeaway from ways 1 and 2, is that if we build and use electricity and data centres more innovatively, we can safely continue with business as usual. We can safely build massive AI products, keep growing our data centres and enjoy the benefits of limitless personal compute potential as long as we are targetting the growing renewable energy resources at low demand times.
 
-### Way 3: Demand shaping computing electricity use so it stays within agreed resource use boundaries
+<a href="https://www.iea.org/reports/electricity-market-report-2023/executive-summary">70% of all electricity still comes from fossil fuels which will reduce to 65% in 2025.</a> This is encouraging, but there is no short or medium term scenario in which targetting curtailed renewable energy could power our global compute. There is also no scenario where additive purchases or direct renewable provision could grow at the speed required to catch up and keep up with rising compute demand in time to affect significantly our global warming trajectory. 
 
-> **TL;DR:** The core question that should be on all responsible technologists’ minds: is my compute’s net electricity demand reducing?  Data centres should interact with grids and seek assent to use electricity or other resources in a dynamic way, against a specific resource budget. 
+It cannot be understated that one of the biggest shifts required to reduce carbon emissions in line with the <a href="https://en.wikipedia.org/wiki/Paris_Agreement">Paris Agreement</a> is to accept that we cannot continue to grow everything without some constraints. At least not in the short-term whilst we wildly exceed the world’s carbon budgets and need to drastically reduce our emissions. The need to manage growth would remain even if we completely switched entirely to renewables: <a href="https://www.mdpi.com/2079-9276/8/1/29">we would run out of the minerals and metals we would needto keep up with current energy demand growth rates</a> 
+
+### Proposal 3: Demand shaping computing electricity use so it stays within agreed resource use boundaries
+
+> **TL;DR:** The core question that should be on all responsible technologists’ minds: **is my compute’s net electricity demand reducing, or at least slowing its rate of increase?** This is a question that can be addressed at the indivdidual, company, national and international level. 
 
 #### The global emissions picture
 
-As a digital tech industry level, we need to accept there should be limits to the amount of resources consumed. To achieve this we have to look at and restrict the growth of computing. Many would argue this is where the real, impactful work lies.
+The tech industry is caught between the commercial imperative for growth, and the business as well as global costs and risks of accelerating global warming. Beyond the polarities of growth vs degrowth, what must surely be accepted is that unlimited growth is unviable for our industry and for our planet. Whatever the boundaries of the debate, we need to accept there should be limits to the net resources consumed by our sector, not just to how energy-efficiently we consume them. 
+
 
 > “The current emissions from computing are about 2% of the world total but are projected to rise steeply over the next two decades. By 2040 emissions from computing alone will be more than half the emissions level acceptable to keep global warming below 1.5°C. This growth in computing emissions is unsustainable: it would make it virtually impossible to meet the emissions warming limit. Plus, the emissions from the production of computing devices far exceed the emissions from operating them. So, even if software is more energy efficient, producing more of them will make the emissions problem worse.” 
 >
@@ -22,23 +27,21 @@ As a digital tech industry level, we need to accept there should be limits to th
 
 The first model shows that because carbon-aware computing does not assume energy demand reduction, only greener compute whatever the demand, it will hardly slow down our race to <a href="https://en.wikipedia.org/wiki/Tipping_points_in_the_climate_system">planetary tipping points</a>.
 
-Business as usual results in a 3 times increase in emissions by 2040 - most of the planet's carbon budget. With the adjustments to carbon-aware computing in scenarios 1 and 2, it will be 2.8 times. That 0.2 factor does matter. Every single reduction counts and buys us days, months, years before irreversible milestones. But it is hardly the solution. 
+Business as usual (BAU) would mean an 800% increase in computer-related electricty demand by 2040, and a 310% increase in our sector's emissions by 2040 - most of the planet's carbon budget. 
 
-The second model shows that specifically the reductions from location shifting are very modest. Even if there were no issues with demand, capacity and curtailment, realistic scenarios give around 3% reductions in emissions generated by computing electricity use. This is because of the overhead in location shifting and the embodied carbon of the required excess capacity.
+At current computing demand growth rates, implementing carbon-aware computing with the adjustments we propose, by 20240 computing-related emissions would rise by 280%. Every single reduction counts and buys us days, months, years before irreversible milestones, so that 20% difference matters. But it still spells disaster. Like placing a bandaid on a serious wound.
 
-In contrast, if we achieved a 50% reduction in computing related electricity demand, the increase in emissions by 2050 would be 0.2 times; and combined with grid-aware computing, 0.18 times. In this scenario, grid-aware computing might be not a bandaid, but a small but definite element in some form of homeostasis: true sustainability. 
+In contrast, demand reduction has an exponential effect. if our sector continued to grow, but managed to limit that growth to 26% between now and 2040, our computer-related emissions that year would be 50% of what they are today, accounting for the rise in renewables. With our proposed carbon aware improvements, the emissions savings would be 56%. In this scenario, our improved carbon-aware computing might be not a bandaid, but one of the ingredients of a genuine solution to our sector and our planet's environmental challenge. 
 
-One course of action is to prioritise where our resource usage goes and make sure it happens in a fair and equitable way across all nations. The concept of improved carbon-aware computing could be hugely helpful. Especially so if data centres interact with grids and seek assent to use electricity or other resources in a dynamic way, as we described above, but against a specific budget. We touched on this in scenario 1 as well.
-What those budgets should be, and for what types of compute activity will require some thought. Nevertheless, this is a vital step to put checks and balances in place to shape computing’s demand and ensure the basic human needs of a local population are met before the profits of Big Tech.
+This goes back to our call for more holistic, long term, systemic thinking on the relationship between computing and the increasingly decarbonising energy grid, where demand response mechanisms will become increasingly necessary, as well as the opportunities of distributed computing and distributed energy systems to at least complement the predominant centralised model of massive data centres and power plants.
+
+Fundamentally, what we are calling for is for some innovative backcasting, that can translate the global carbon budget into a tech energy budget, over a critical timeline, and identify the innovations, integrations and optimisations needed to not just operate but thrive in those scenarios. 
+
+Carbon aware computing implies a wider vision of the relationship between emissions and electricity demand, consumption, generation and management. The event-driven architecture of our early implementations is a great foundation on which to build. The refinements we offer in proposals 1 and 2 may mitigate the risks and optimise the benefits. But there is also an opportunity to think bigger, into how we implement, expand and evolve such patterns at scale with key energy and policy partners in a way that not just optimises our emissions, but reduces net consumption in a fair and equitable way across all nations. The concept of improved carbon-aware computing could be hugely helpful. 
+
+If this article sparks a conversation on what these patterns could look like for data centres, for AI, for blockchains, and indeed for power plants, for renewable energy providers and infrastructure vendors, for investors and regulators, there is no doubt that breakthroughs would follow.
 
 
-#### Data centres are considered "critical infrastructure"
-
-A hurdle we have to overcome when implementing something like this is that right now, data centres are considered "critical infrastructure", whatever type of compute they're running. This means they automatically get preferential access to the grid. When grid operators are deciding who to provide power to at times of strain, they often receive priority the same way hospitals might as well.
-
-This is also partly why in West London in 2022, <a href="https://www.datacenterdynamics.com/en/news/report-home-building-to-halt-in-west-london-due-to-data-center-power-demands/">datacentres were able to get grid access ahead of the construction of new houses</a>.
-
-It's possible to flip it around so the default is that data centres only pull power from the grid when there is excess green energy that needs to be used. In this scenario, it's likely big operators would just source their own local off-grid power, which is almost universally more co2 emitting because year round onsite power usually relies on fossil fuels.
 
 
 ## Next section
