@@ -4,7 +4,7 @@ As we discussed in [When does carbon-aware software make sense?](when-does-carbo
 
 Our two refined and proposed carbon-aware approaches don’t stand to gain us much if we are not also tackling the big question: **how much of the world’s resources is it acceptable for tech to use?**
 
-There is a danger that the key takeaway from ways 1 and 2, is that if we build and use electricity and data centres more innovatively, we can safely continue with business as usual. We can safely build massive AI products, keep growing our data centres and enjoy the benefits of limitless personal compute potential as long as we are targetting the growing renewable energy resources at low demand times.
+There is a danger that the key takeaway from proposals 1 and 2, is that if we build and run electricity and data centres more innovatively, we can safely continue with business as usual. We can safely build massive AI products, keep growing our data centres and enjoy the benefits of limitless personal compute potential as long as we are targetting the growing renewable energy resources at low demand times.
 
 <a href="https://www.iea.org/reports/electricity-market-report-2023/executive-summary">70% of all electricity still comes from fossil fuels which will reduce to 65% in 2025.</a> This is encouraging, but there is no short or medium term scenario in which targetting curtailed renewable energy could power our global compute. There is also no scenario where additive purchases or direct renewable provision could grow at the speed required to catch up and keep up with rising compute demand in time to affect significantly our global warming trajectory. 
 
