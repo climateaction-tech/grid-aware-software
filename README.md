@@ -1,25 +1,23 @@
 # The problems with carbon-aware software that everyone’s ignoring.
 
-**Authors:** <a href="https://www.google.com/url?q=https://www.linkedin.com/in/hanopcan/&amp;sa=D&amp;source=editors&amp;ust=1699360648357123&amp;usg=AOvVaw2QPHsKNeHm_mkgdJztA65v">Hannah Smith</a> and <a href="https://www.google.com/url?q=https://www.linkedin.com/in/ismaelvelasco/&amp;sa=D&amp;source=editors&amp;ust=1699360648356766&amp;usg=AOvVaw1o4hmdZ2koxtYFrzisxYnx">Ismael Velasco</a>
+**Authors:** <a href="https://www.linkedin.com/in/hanopcan/">Hannah Smith</a> and <a href="https://www.linkedin.com/in/ismaelvelasco/">Ismael Velasco</a>.
 
-**Reviewers and contributors:** <a href="https://www.google.com/url?q=https://www.linkedin.com/in/mikeoghia/&amp;sa=D&amp;source=editors&amp;ust=1699360648357458&amp;usg=AOvVaw2SdnYvf41QVNXpQHVJLQvg">Michael J. Oghia</a>, <a class="c10" href="https://www.google.com/url?q=https://www.linkedin.com/in/fershad/&amp;sa=D&amp;source=editors&amp;ust=1699360648357664&amp;usg=AOvVaw3OHfY7Qq_neAg5vgyj-psA">Fershad Irani</a>, <a class="c10" href="https://www.google.com/url?q=https://www.dcs.gla.ac.uk/~wim/&amp;sa=D&amp;source=editors&amp;ust=1699360648357863&amp;usg=AOvVaw1hQV80bzme-GRlktWVwhew">Wim Vanderbauwhed</a>.
+**Reviewers and contributors:** <a href="https://www.google.com/url?q=https://www.linkedin.com/in/mikeoghia/">Michael J. Oghia</a>, <a href="https://www.google.com/url?q=https://www.linkedin.com/in/fershad/">Fershad Irani</a>, <a href="https://www.google.com/url?q=https://www.dcs.gla.ac.uk/~wim/">Wim Vanderbauwhed</a>.
 
-**Additional informal input and advice:** <a class="c10" href="https://www.google.com/url?q=https://www.linkedin.com/in/philip-jenner-348b1a31/&amp;sa=D&amp;source=editors&amp;ust=1699360648358200&amp;usg=AOvVaw2lPaxwv7EHjxZxtSTLD5h5">Phillip Jenner</a>, Ecotricity
+**Additional informal input and advice:** <a href="https://www.google.com/url?q=https://www.linkedin.com/in/philip-jenner-348b1a31/">Phillip Jenner</a> and <a href="https://www.linkedin.com/in/mrchrisadams/">Chris Adams</a>.
 
 ## TL;DR / Executive Summary
 
-1. The core concept of shifting compute jobs to respond to the grid is a smart one. But we need to usher in the next, more mature and nuanced version which we’re calling ‘grid-aware computing’.
+1. The core concept of shifting compute jobs to respond to the grid is a smart one. But there are only small-to-zero carbon reduction benefits from implementing most current carbon-aware time-shifting and location-shifting computing approaches. 
 
-2. There are only small-to-zero carbon reduction benefits from implementing most current carbon-aware time-shifting and location-shifting computing approaches, while adding significant risks of unintended destructive effects. 
+1. If such approaches are adopted at scale without implementation constraints, they are likely to increase emissions and destabilise electricity grid systems. This does not improve the tech industry’s contributions to global sustainability, but rather worsens them. It also risks becoming, or is already, a greenwashing effort.
 
-3. If such approaches are adopted at scale without implementation constraints, they are likely to increase emissions and destabilise electricity grid systems. This does not improve the tech industry’s contributions to global sustainability, but rather worsens them. It also risks becoming, or is already, a greenwashing effort and little more.
+1. The key failure is never applying appropriate warning labels to draw attention to key caveats. Such as
+- Carbon-aware computing that can yield _actual_ carbon reductions runs when demand is low using curtailed electricity in stable grids, or on genuinely additive renewable electricity.
 
-4. The key failure is never mentioning that "terms and conditions apply". Carbon-aware computing that can yield actual carbon reductions is: 
-	- Running when demand is low using curtailed electricity in stable grids, or;
-	- Running on genuinely additive renewable electricity.
+- “_Is your compute’s net electricity demand reducing?_” is the central question if we really want to make computing more sustainable. Acknowledging Jevons paradox and accepting that optimisation alone isn't enough, means we must find ways to limit the growth of computing's resource use.
 
-5. If we really want to make computing more sustainable, the central, dominant question is “is your compute’s net electricity demand reducing?”. Finding ways to limit the growth of computing is a far more effective way to contribute to lowering emissions than optimisation.
-
+4. We need to usher in a more mature, holistic and nuanced approach to reducing the CO2 emissions from running software. For now we’re calling this _‘grid-aware computing’_.
 
 ## License
 
@@ -45,6 +43,6 @@ This body of work is divided into seven distinct sections:
 
 The body of work presented here, started after Ismael posted some questions and research into the <a href="https://climateaction.tech/community/">CAT's Slack</a>. Hannah, amongst many others picked up on the discussion. 
 
-Following debate, Hannah and Ismael agreed to work together to further develop the research on the problems with carbon-aware and ultimately come up with the outline of a proposal to improve it. 
+Following some debate on the issue, Hannah and Ismael agreed to work together to further develop the research on the problems with carbon-aware and ultimately come up with this presentation of the issues.
 
 If it were not for <a href="https://cliamteaction.tech">CAT</a> this work would not have come to fruition on this way - thank you CAT for bringing people together!
