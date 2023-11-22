@@ -39,6 +39,10 @@ This body of work is divided into seven distinct sections:
 1. [Where do we take carbon-aware from here? Introducing grid-aware computing](grid-aware-computing.md)
 1. [What can you do to help?](how-can-you-help.md)
 
+**Appendices**
+
+1. [Appendix 1 - Innovation with distributed alternatives](/appendices/appendix-1.md).
+
 ## Context/about 
 
 The body of work presented here, started after Ismael posted some questions and research into the <a href="https://climateaction.tech/community/">CAT's Slack</a>. Hannah, amongst many others picked up on the discussion. 

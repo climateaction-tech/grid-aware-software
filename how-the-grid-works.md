@@ -89,13 +89,15 @@ When demand is high again, that stored energy can be put back onto the grid in a
 
 But what if storage isn’t enough, or isn’t available on a grid? There’s one final option that is available to keep things in balance.
 
-### Option 3: Create artificial demand 
+### <a id="demand-management"></a> Option 3: Create artificial demand 
 
 The grid uses incentives to artificially spike electricity consumption to grow demand and match the remaining excess in supply. This is called <a href="https://en.wikipedia.org/wiki/Energy_demand_management">demand management</a>.
 
 **What happens:** The grid provides an incentive for businesses, though recently some consumer based schemes are being trialled, to increase their electricity use beyond what they might normally need. Most likely through a special tariff offering cheaper electricity at these times. By doing this, the grid can inflate electricity demand to the point where it is able to achieve a new balance between supply and demand.
 
 Therefore, unplanned drops in electricity use, like the Paris light example, are highly unlikely to result in equivalent reduced emissions. Beyond a very specific, legally mandated range, the grid compensates for unplanned drops in a way that negates the savings. The net amount of emissions in any given day will be approximately the same in almost every case.
+
+There's some interesting research and discussions going on about how data centers can be part of the solutions here. A great example to dive into <a href="https://academic.oup.com/ooenergy/article/doi/10.1093/ooenergy/oiad014/7329550">Stretched grid? Managing data center energy demand and grid capacity</a>, published Oct 2023.
 
 ### An increase in demand
 

@@ -4,7 +4,7 @@ Let’s be absolutely clear on the answer to the question “is carbon-aware com
 
 The core concept that shifting compute jobs to respond to the electricity available is sound.
 
-**The criticism, however, is that current approaches never mention that "terms and conditions apply".**
+**The criticism is that current approaches never apply any warning labels.**
 
 There is no real acknowledgement of the nuances of how balancing electricity supply and demand works in practice. We fail to mention that the current patterns are only helpful in certain circumstances, futile in most, and seriously harmful in others. It seems the uncomfortable outcome is all this effort hampes tech’s sustainability efforts as we try to help them. 
 
@@ -12,7 +12,7 @@ Most crucially we see don’t carbon-aware software meaningfully addressing the 
 The damage of runaway climate change to populations around the world demands that we do better, and we believe the tech sector is <a href="https://rtl.chrisadams.me.uk/2023/07/comparing-what-is-spent-on-share-buybacks-vs-the-cost-of-decarbonising-the-grid/">well resourced enough to tackle this in a meaningful way</a>.
 
 
-## What are the “terms and conditions” that need to be applied?
+## What are the warning labels that need to be applied?
 
 There are two ways in which we think the logic of the carbon-aware approach holds true.
 
@@ -30,11 +30,13 @@ Don't just take our word for these two. The shortest, clearest authoritative sum
 >
 > When... electricity [comes] from existing renewable sources, it displaces the GHG emissions in the near-term, shifting users of renewable sources to fossil fuel sources. This is because coal and natural gas often supply electricity generation for each additional unit of electricity demanded in the United States. As the amount of renewable sources is held constant, but electricity demand increases, additional fossil power will likely be dispatched. This displacement results in no net change or in increases in total global emissions through a process called leakage.”
 
-We get into these two ways in the sections below, before discussing the elephant in the room - the net increases in resources demanded by the tech sector - which leads us to conclude with way three.
+We get into these two ways in the sections below. In the next section, we discuss [addressing the elephant in the room](elephant-in-room.md) - the net increases in resources demanded by the tech sector even with all this optimisation effort. This leads us to present a third way.
 
 ### Way 1: Run compute when demand is low, using curtailed electricity in stable grids
 
-> **TL;DR:** The refinement to current carbon-aware time-shifting or location-shifting approaches we propose is to prioritise demand intensity first and carbon intensity second. We need to do this in collaboration with one another and local grid systems.
+> #### TL;DR:
+>
+> We propose the refinement to current carbon-aware time-shifting or location-shifting approaches is to **prioritise demand intensity first and carbon intensity second**. We need to do this in collaboration with one another and local grid systems.
 
 Scheduling compute to run at already predicted low demand times contrasts to the current approach of dynamically time-shifting to periods of high renewables/low carbon intensity, which fluctuates day-to-day and is hard to forecast. If we time-shift compute within our own grids based on grid demand in a highly predictable, stable fashion we don’t create unpredictable daily spikes.
 
@@ -42,38 +44,38 @@ This sounds simple for routine jobs. As a concept perhaps it is. But that doesn�
 
 And for compute that’s more spontaneous? There’s some good demand-focused tweaks available here too.
 
-Our beneficial impact can be even greater if running compute can play a part in helping the grid to avoid ramp-ups/downs. Going up or down can inflate carbon emissions, as we explored earlier. Ramping down also typically involves curtailing electricity, which is essentially wasting electricity. Getting compute to make use of that, regardless of the carbon intensity at the time, is an approach worth working on.
+Our beneficial impact can be even greater if running compute can play a part in helping the grid to avoid ramp-ups/downs. Going up or down can inflate carbon emissions, as we explored in [what software engineers need to know about how the grid works](how-the-grid-works.md). Ramping down also typically involves curtailing electricity, which is essentially wasting electricity. Getting compute to make use of that, regardless of the carbon intensity at the time, is an approach worth working on.
 
 We think an alternative version of location-shifting, that factors in demand, could also be helpful. What if we first looked for grids that currently have low demand AND then sought those with a period of naturally high renewable electricity production? This contrasts to the current carbon-aware location-shifting approach that just looks at electricity carbon intensity.
 
 In our proposed way we might look for places with low demand, let’s say between 2am and 4am, with high winds in a grid that does a solid job of harnessing wind energy. If that grid were unable to make use of all that wind and had to curtail it, our compute could use it for something productive.
 
-The above has merit when happening at a relatively small scale. But if everyone does this at the same time? Then we *still* have the problem of creating demand spikes, one our core worries about the current approaches. 
+The above has merit when happening at a relatively small scale. But if everyone does this at the same time? Then we *still* have the problem of creating demand spikes, one our core worries about the current approaches.
 
-So, let’s take the approach even further. Let’s get our compute jobs to interface with grids that need to use some electricity that would otherwise be curtailed, and get a handshake saying we can use it. If that grid can’t handle our needs we look for another that can.
+### A long-term vision 
 
-And if no grid meets our criteria? *We wait*. We wait until we find one that does.
+So, let’s take the approach even further and imagine a long-term goal. Let’s make it standard that our compute jobs, and more specifically the data centres running these jobs, interface with grids and become part of the solution rather than the problem. These ideas fall into the realm of **demand management**, which we touch on in [what software engineers need to know about how the grid works](how-the-grid-works.md).
 
-This implies a shift in mindset for those wanting the results of the compute, be it in a corporate or domestic setting. Waiting patiently until the conditions are right, rather than expecting results immediately. There’s a lot of compute that needs immediate response, like visiting a web page. But there’s also plenty that is not time sensitive, like complex algorithmic analysis for research.
+By interacting with grid management systems, ideally in an automated, collaborative, and democratic way, we could identify times that assist with managing the grid, rather than placing additional burdens on it. Democratic here is key as well.
 
-By interacting with grid management systems, ideally in an automated, collaborative, and democratic way, we can identify times that assist with managing the grid, rather than placing additional burdens on it.
-Democratic here is key as well.
-
-This can’t just be the realm of the Big Tech players. We all need a chance to participate through open source standards and protocols. By doing so, we can actually prevent fossil fuels from being used, further reducing net emissions – a win/win across the board. We discuss these ideas further in way 3.
+This can’t just be the realm of the Big Tech players. We all need a chance to participate through open source standards and protocols. By doing so, we can actually prevent fossil fuels from being used, further reducing net emissions – a win/win across the board. We explore these ideas further in [addressing the elephant in the room](elephant-in-room.md).
 
 ### Way 2: Run compute on additive renewable energy
 
-> *TL;DR:* To be in any way effective, computing must target green energy sources that are in fact additive, and transparently address and mitigate the risks of perverse effects.
+> #### TL;DR:
+>
+> To be in any way effective, computing must target green energy sources that are in fact additive, and transparently address and mitigate the risks of perverse effects.
 
-> ## Quick reference – Additive renewable energy 
+There are two common ways running compute on additive renewable energy can be achieved. 
+
+> ### Quick reference – Additive renewable energy 
 >
 > “Additive” or “additional” renewable electricity means your purchase is financing new renewable electricity that would otherwise not exist. Related is applying the principle of "<a href="https://www.electricitymaps.com/blog/what-is-additionality-and-emissionality">additionality</a>" to renewable energy generation, particularly in <a href="https://en.wikipedia.org/wiki/Carbon_emission_trading">carbon markets</a>. 
 >
 > If your compute consume 50 terawatts of electricity and you pay for new solar panels that generate 50 terawatts of electricity, you achieve additionality. You can claim, in theory, that your compute is emissions neutral. In practice <a href="https://kvenkatm.medium.com/we-need-a-better-way-of-purchasing-and-accounting-for-renewable-electricity-34c0ee66070e">it’s less clear-cut</a>, but this is the general idea.
 >
 > Traditional carbon markets often sell ‘carbon credits’ based on already existing renewable electricity. In this scenario there is no additionality. You are merely claiming the existing renewable energy production as yours and giving responsibility for the existing dirty energy production to someone else. This is not reducing emissions at all. 
- 
-There are two common ways running compute on additive renewable energy can be achieved. 
+  
 
 #### Power Purchase Agreements (PPAs) and Renewable Energy Certificates (RECs)
 
@@ -108,21 +110,7 @@ If your compute is being directly powered by your own solar panels or wind turbi
 While preferable in terms of emissions, this approach is challenging to scale and risks perverse effects as get into below. 
 
 ### Innovation with distributed alternatives
-As a complement to this section, it’s worth mentioning there’s room to innovate with distributed alternatives. Distributed compute and renewable electricity generation.
-
-Hyperscale computing today is highly centralised in massive data centres. To power such enormous compute directly requires renewable generation facilities taking up massive amounts of land and water, around already huge data centre land occupation. While this can genuinely reduce compute emissions from hyperscalers, there are usually wider environmental, social and economic impacts, aside from the logistics involved. 
-
-As an example, one such project is <a href="https://www.datacenterdynamics.com/en/news/230-million-solar-powered-data-center-planned-in-aragon-spain/">underway in Zaragoza, Spain</a>. A 40,000 square metres data centre will be supplied by two solar farms. Just one of these two solar farms, accounting for 90MW,  will span <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-1169">232 gross hectares</a> (2.3m square metres). This is roughly the size of Central Park in New York. It will take up land rich in biodiversity, which, provisions notwithstanding, it seems set to damage, including endangered species of both animals and trees.
-
-And one more, the recent data centre built by Google in Chile is double the size, <a href="https://www.ciperchile.cl/2020/05/25/las-zonas-oscuras-de-la-evaluacion-ambiental-que-autorizo-a-ciegas-el-megaproyecto-de-google-en-cerrillos/">extracting 169 litres of water/second in the local area</a> and would thus require close to 10 million square metres to be powered directly by solar.
-
-Local populations are already feeling the impact from the huge expansion of data centres. There’s a movement forming calling for a <a href="https://techmonitor.ai/technology/cloud/inside-the-data-centre-moratorium-movement">moratorium on data centre construction</a>. It’s happening globally – in <a href="https://www.rte.ie/news/dublin/2022/0110/1272869-eirgrid-datacentres-dublin/">Ireland</a>, <A href="https://www.washingtonpost.com/climate-environment/2022/05/28/meta-data-center-zeewolde-netherlands/">The Netherlands</a>, and <a href="https://www.itpro.com/server-storage/data-centres/367441/why-singapore-stopped-building-data-centres">Singapore</a>. The resistance is not just around electricity consumption. <a href="https://blogs.lse.ac.uk/medialse/2022/11/02/big-techs-new-headache-data-centre-activism-flourishes-across-the-world/">Water use is a huge issue too</a>. Local populations in <a href="https://www.abqjournal.com/news/local/facebook-data-center-water-use-scrutinized/article_521c48ac-c971-577c-bed2-3b0c7df4b0cc.html">New Mexico, USA</a>, <a href="https://www.theguardian.com/world/2023/jul/11/uruguay-drought-water-google-data-center">Uruguay</a>, and <a href="https://www.ciperchile.cl/2020/05/25/las-zonas-oscuras-de-la-evaluacion-ambiental-que-autorizo-a-ciegas-el-megaproyecto-de-google-en-cerrillos/">Chile</a> continue to be at the forefront of the struggle over resource use.
-
-**However, hyperscale is not the only model, and it doesn’t have to be the inevitable future**. Most computing today is highly distributed or distributable. There are <a href="http://arxiv.org/abs/2207.02428">experiments with co-location of compute</a> (crypto-currency specifically) where renewable generation already exists. This ensures direct power for compute using renewable energy, and plays a role in renewable electricity demand management. This too has the risk for perverse incentives effects. But with the right guardrails could be a significant paradigm to expand and explore.
-
-Finally mainstream electricity generation tends to be concentrated in massive power plants. Renewable electricity infrastructure makes distributed energy generation possible. Instead of electricity being generated in a few massive central nodes, significant amounts could be generated in a large number of widely distributed, smaller nodes and <a href="https://www.sciencedirect.com/science/article/pii/S136403211830128X#bbib113">microgrids</a>. 
-
-The idea of <a href="https://www.researchgate.net/profile/Anaza-Sikiru-2/publication/368472105_Potential_of_Renewable_Energy_Sources_for_Distributed_Generations_An_Overview/links/63efa2f919130a1a4a896a9c/Potential-of-Renewable-Energy-Sources-for-Distributed-Generations-An-Overview.pdf">matching distributed renewable energy generation</a> with distributed computing <a href="https://doi.org/10.1093/jcde/qwac087">has been floated</a> and holds promise. This not only allows the off-grid powering of compute, but also expands the possibilities of dual use. For example distributed data centre servers can be used <a href="https://energycentral.com/system/files/ece/nodes/418708/200424_sdia_report_utility_full-final.pdf">simultaneously for compute and for heating</a>, reducing the energy currently spent for indoor heating.
+As a complement to this section, it’s worth mentioning there’s room to innovate with distributed alternatives. Distributed compute and renewable electricity generation. We've pulled out some of the ideas/research around this into [Appendix 1](/appendices/appendix-1.md).
 
 
 ## Next section
