@@ -14,9 +14,9 @@ _We’re getting there, then, yes?_
 
 Who has actually paused to confirm whether these seemingly obvious claims are true? Does programming our software to responsively seek periods and locations with lower carbon intensity electricity actually make a tangible difference? Where are the studies that can prove this? If these patterns are implemented at scale, can the tech sector legitimately say it’s contributed to actually reducing global carbon dioxide (CO2) emissions?
 
-Afterall, the ICT sector needs to be on a <https://www.itu.int/en/mediacentre/Pages/PR04-2020-ICT-industry-to-reduce-greenhouse-gas-emissions-by-45-percent-by-2030.aspx>pathway to reduce its carbon emissions by 45% in 2030</a> to be in-line with the <a hef="https://unfccc.int/most-requested/key-aspects-of-the-paris-agreement">Paris Agreement goals</a> of limiting global warming to 1.5ºC.
+Afterall, the ICT sector needs to be on a <a href="https://www.itu.int/en/mediacentre/Pages/PR04-2020-ICT-industry-to-reduce-greenhouse-gas-emissions-by-45-percent-by-2030.aspx">pathway to reduce its carbon emissions by 45% in 2030</a> to be in-line with the <a hef="https://unfccc.int/most-requested/key-aspects-of-the-paris-agreement">Paris Agreement goals</a> of limiting global warming to 1.5ºC.
 
-Those of us involved in writing this have paused to ask these questions. And we’re not the first to have done so [[1](#[1])][[2](#[2])].
+Those of us involved in writing this have paused to ask these questions. We acknowledge we’re not the first to have done so [[1](#others-raising)] [[2](#others-raising)].
 
 Based on our exploration, we believe there is evidence to show current carbon-aware approaches may be mostly futile. What’s more, they might actually be _increasing_ emissions, while laying the foundations for the next generation of greenwashing across Big Tech. 
 
@@ -24,15 +24,15 @@ On the positive side, the evidence also suggests there are ways to implement suc
 
 In this light, we believe our grand collective oversight is to omit any mention of the HUGE caveats to carbon-aware computing.
 
-We explore these concerns and caveats. We start by acknowledging the technical detail of how electricity grids work in practice. We move to considering how current carbon-aware software approaches do not appear to take these realities into consideration. The post concludes by proposing an iteration on the current carbon-aware guidelines for a more responsible and effective implementation, which we call “grid-aware computing”.
+We explore these concerns and caveats. We start by acknowledging the technical detail of how electricity grids work in practice. We move to considering how current carbon-aware software approaches do not appear to take these realities into consideration. We then consider the bigger questions at play about what the tech sector really has to grapple with to make meaningful reductions. The post concludes by proposing an iteration on the current carbon-aware guidelines for a more responsible and effective implementation, which we call “grid-aware computing”.
 
 ## Next section
 
 Continue the story -  [What software engineers need to know about how the grid works](how-the-grid-works.md)
 
-#### [1]
-https://github.com/Green-Software-Foundation/carbon-aware-sdk/issues/222
+### <a id="others-raising"></a> Others raising concerns around carbon-aware software approaches
 
-#### [2] 
-https://adrianco.medium.com/dont-follow-the-sun-scheduling-compute-workloads-to-chase-green-energy-can-be-counter-productive-b0cde6681763
+**[1]** - https://github.com/Green-Software-Foundation/carbon-aware-sdk/issues/222
+
+**[2]** - https://adrianco.medium.com/dont-follow-the-sun-scheduling-compute-workloads-to-chase-green-energy-can-be-counter-productive-b0cde6681763
 
