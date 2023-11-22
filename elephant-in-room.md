@@ -38,7 +38,11 @@ Realistic scenarios for location shifting give around 3% reductions in emissions
 
 In contrast, if we achieved a 50% demand reduction in computing electricity use, we would see emissions reduce to 20% of today's current level. Add in our suggested improvement to carbon-aware software, and the model suggests that reduced to 18%. 
 
-We think this the level of urgent, drastic kind of reduction level we need.
+We think this the level of urgent, drastic kind of reduction level we need that we represent as way 3.
+
+![](images/grid-aware-computing.png)
+
+_A visualisation to illustrate the gains from the different approaches outlines in this post. Courtesy of Professor Wim Vanderbauwhede._
  
 
 ## Way 3: Demand shaping computing electricity use so it stays within agreed resource use boundaries
