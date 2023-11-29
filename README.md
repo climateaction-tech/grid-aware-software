@@ -1,10 +1,12 @@
 # The problems with carbon-aware software that everyone’s ignoring.
 
-**Authors:** <a href="https://www.linkedin.com/in/hanopcan/">Hannah Smith</a> and <a href="https://www.linkedin.com/in/ismaelvelasco/">Ismael Velasco</a>.
+**Author:** <a href="https://www.linkedin.com/in/hanopcan/">Hannah Smith</a>.
 
-**Reviewers and contributors:** <a href="https://www.google.com/url?q=https://www.linkedin.com/in/mikeoghia/">Michael J. Oghia</a>, <a href="https://www.google.com/url?q=https://www.linkedin.com/in/fershad/">Fershad Irani</a>, <a href="https://www.google.com/url?q=https://www.dcs.gla.ac.uk/~wim/">Wim Vanderbauwhed</a>.
+**Based on initial research and insights** by <a href="https://www.linkedin.com/in/ismaelvelasco/">Ismael Velasco</a>.
 
-**Additional informal input and advice:** <a href="https://www.google.com/url?q=https://www.linkedin.com/in/philip-jenner-348b1a31/">Phillip Jenner</a> and <a href="https://www.linkedin.com/in/mrchrisadams/">Chris Adams</a>.
+**Reviewers and contributors:** <a href="https://www.linkedin.com/in/ismaelvelasco/">Ismael Velasco</a>, <a href="https://www.linkedin.com/in/mikeoghia/">Michael J. Oghia</a>, <a href="https://www.linkedin.com/in/fershad/">Fershad Irani</a> and <a href="https://www.dcs.gla.ac.uk/~wim/">Wim Vanderbauwhede</a>.
+
+**Additional informal input and advice:** <a href="https://www.linkedin.com/in/philip-jenner-348b1a31/">Phillip Jenner</a> and <a href="https://www.linkedin.com/in/mrchrisadams/">Chris Adams</a>.
 
 ## TL;DR / Executive Summary
 
@@ -23,7 +25,7 @@
 
 This work is open source and licensed using Creative Commons Attribution-ShareAlike 4.0 International (<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0 Deed</a>).
 
-In short you are free to use this work, but you must give appropriate credit and link back to this repo.
+In short you are free to use this work, but you must give appropriate credit to the author and link back to this repo.
 
 <a href="https://github.com/climateaction-tech/grid-aware-software">https://github.com/climateaction-tech/grid-aware-software</a>.
 
@@ -41,12 +43,17 @@ This body of work is divided into seven distinct sections:
 
 **Appendices**
 
-1. [Appendix 1 - Innovation with distributed alternatives](/appendices/appendix-1.md).
+1. [Appendix 1 - Innovation with distributed alternatives](/appendices/appendix-1.md)
 
-## Context/about 
+## The story about this work 
 
-The body of work presented here, started after Ismael posted some questions and research into the <a href="https://climateaction.tech/community/">CAT's Slack</a>. Hannah, amongst many others picked up on the discussion. 
+The body of work presented here, started after Ismael Velasco posted questions and research into <a href="https://climateaction.tech/community/">CAT's Slack</a> checking some research he was doing about carbon aware software and asking for input. Hannah Smith, amongst many others contributed to the discussion. 
 
-Following some debate on the issue, Hannah and Ismael agreed to work together to further develop the research on the problems with carbon-aware and ultimately come up with this presentation of the issues.
+Following some debate on the issue within CAT's Slack, Hannah proposed the idea of working with Ismael to turn his initial findings/musings into a blog post for the wider CAT and developer community. The aim was to take the existing research and make it accessible to those with less experience in the topic. 
 
-If it were not for <a href="https://cliamteaction.tech">CAT</a> this work would not have come to fruition on this way - thank you CAT for bringing people together!
+As Hannah began to do this she thought that the article could go one step further in order to land constructively with the intended audience. She thought it needed to propose some clear, viable alternatives to the problems being highlighted. Afterall, those working on the topic of carbon aware software are doing so with the best of intentions and are all trying to do the same thing - find ways to get the tech sector to reduce it's carbon emissions. 
+
+She therefore played around and came up with the concept of '_grid-aware computing_' (she's still not sure that title id the best one, but nevermind!). With the help of all the people credited in this article, including Ismael, she fleshed out and structured these ideas into the writing you see here.
+
+
+If it were not for <a href="https://cliamteaction.tech">CAT</a> this work would not have come to fruition on this way - thank you CAT for bringing people together and providing a safe space for people to explore their ideas!
