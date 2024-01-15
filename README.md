@@ -55,5 +55,16 @@ As Hannah began to do this she thought that the article could go one step furthe
 
 She therefore played around and came up with the concept of '_grid-aware computing_' (she's still not sure that title id the best one, but nevermind!). With the help of all the people credited in this article, including Ismael, she fleshed out and structured these ideas into the writing you see here.
 
-
 If it were not for <a href="https://cliamteaction.tech">CAT</a> this work would not have come to fruition on this way - thank you CAT for bringing people together and providing a safe space for people to explore their ideas!
+
+## The intended spirit of this work
+
+We acknowledge the hard work of many, many people in the climate tech space. Many people who have for years been toiling away in their free time, outside of day jobs, in evenings, weekends and at times when they should probably be with loved ones, to try and shift the tech world into giving a damn and taking action on climate. For all those people who have gone ahead of us, we see you. We respect you and we're grateful to you.
+
+Many of those people might well have contributed to the approaches to carbon aware we discuss and critique in this work.
+
+Being critical about anyone's work is a delicate thing to get right, and we've tried super hard to strike a respectful and constructive tone. To open up debate. To open up possibilities. To make space for nuanced discussion on things we care about. But also to say what we think plainly.
+
+We do not intend to dispirit or put down those who have worked hard to shift this industry. Quite the opposite.
+
+Therefore, please read, comment on and discuss this work in the spirit that it came from - one of respect for those whose shoulders we stand on, constructive debate and progress in the right direction. Thank you.
