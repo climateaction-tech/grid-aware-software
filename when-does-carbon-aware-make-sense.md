@@ -6,7 +6,7 @@ The core concept that shifting compute jobs to respond to the electricity availa
 
 **The criticism is that current approaches never apply any warning labels.**
 
-There is no real acknowledgement of the nuances of how balancing electricity supply and demand works in practice. We fail to mention that the current patterns are only helpful in certain circumstances, futile in most, and seriously harmful in others. It seems the uncomfortable outcome is all this effort hampes tech’s sustainability efforts as we try to help them. 
+There is no real acknowledgement of the nuances of how balancing electricity supply and demand works in practice. We fail to mention that the current patterns are only helpful in certain circumstances, futile in most, and seriously harmful in others. It seems the uncomfortable outcome is all this effort hampers tech’s sustainability efforts as we try to help them. 
 
 Most crucially we see don’t carbon-aware software meaningfully addressing the elephant in the room. **It is simply not possible to optimise our way to the reductions needed in the tech sector, whilst tech’s overall energy and resource demands grow rampantly.**
 The damage of runaway climate change to populations around the world demands that we do better, and we believe the tech sector is <a href="https://rtl.chrisadams.me.uk/2023/07/comparing-what-is-spent-on-share-buybacks-vs-the-cost-of-decarbonising-the-grid/">well resourced enough to tackle this in a meaningful way</a>.
