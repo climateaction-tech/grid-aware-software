@@ -9,7 +9,7 @@ In this section we look at the bigger picture of tech's carbon emissions and con
 
 ### The global emissions picture
 
-Let's start an overview of tech's big picture problem space when it comes to carbon emissions.
+Let's start with the big picture of tech's problem space when it comes to carbon emissions.
 
 
 > “The current emissions from computing are about 2% of the world total but are projected to rise steeply over the next two decades. By 2040 emissions from computing alone will be more than half the emissions level acceptable to keep global warming below 1.5°C. 
